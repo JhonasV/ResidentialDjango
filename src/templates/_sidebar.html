@@ -1,0 +1,29 @@
+
+  <ul class="collapsible">
+    <li>
+      <div class="collapsible-header">Menu</div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">business</i>Buildings</div>
+      <div class="collapsible-body"><a href='/buildings'>Listado</a></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">apps</i>Appartments</div>
+      <div class="collapsible-body"><a href='/appartments'>Listado</a></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">people</i>Visits</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">payment</i>Mainentance</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+  </ul>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.collapsible');
+    var instances = M.Collapsible.init(elems);
+  });
+  </script>
